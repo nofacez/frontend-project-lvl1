@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/nofacez/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/nofacez/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/nofacez/frontend-project-lvl1#readme",
+  "type": "module"
 }
