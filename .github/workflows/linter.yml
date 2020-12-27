@@ -10,5 +10,10 @@ jobs:
     steps:
       
       # Check out the repository
+
       - uses: actions/checkout@v1
+      
+      - name: npm install, build
+      - run: make install
+
       - run: make lint
