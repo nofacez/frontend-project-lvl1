@@ -3,8 +3,10 @@ name: Super Linter
 on: push
 
   jobs:
+
    runs-on: ubuntu-latest
-  - uses: actions/checkout@v2
-    - name: Run linter
-        run: |
-          make lint
+   steps: 
+    - uses: actions/checkout@v2
+      - name: Run linter
+          run: |
+            make lint
