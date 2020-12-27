@@ -2,15 +2,11 @@
 name: Super-Linter
 
 # Run this workflow every time a new commit pushed to your repository
-on: commit
-jobs: 
-  run_lint:
-    runs-on: ubuntu-latest
-    steps: 
+on: push
+  name: start lint
+    run:
+      make lint
 
-      -run: |
-        make lint
-        
 on: push
 
 jobs:
