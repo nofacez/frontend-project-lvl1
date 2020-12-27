@@ -1,4 +1,4 @@
-name: Run ESLint on Push Requests
+name: lint
 
 on:
   - push
