@@ -25,7 +25,6 @@
     "brain-even": "bin/brain-even.js"
   },
   "dependencies": {
-    "dos2unix": "^1.1.2",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.22.1",
     "lodash": "^4.17.20",
