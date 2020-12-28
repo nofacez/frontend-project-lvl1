@@ -1,12 +1,15 @@
 install:
 	npm install
 
-brain_games:
-	node bin/games/brain-games.js
+brain-games:
+	node bin/brain-games.js
 
 brain-even:
-	node bin/games/brain-even.js
-
+	node bin/brain-even.js
+	
+brain-cals:
+	node bin/brain-cals.js
+	
 publish:
 	npm publish --dry-run
 
