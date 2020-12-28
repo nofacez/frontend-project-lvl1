@@ -21,8 +21,8 @@
   "homepage": "https://github.com/nofacez/frontend-project-lvl1#readme",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-games": "bin/games/brain-games.js",
+    "brain-even": "bin/games/brain-even.js"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.2.1",
