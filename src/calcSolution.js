@@ -1,3 +1,4 @@
+/* eslint-disable consistent-return */
 export default (num1, num2, op) => {
   switch (op) {
     case '+':
