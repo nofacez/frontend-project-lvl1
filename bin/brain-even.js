@@ -10,7 +10,6 @@ const brainEven = () => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   let correctAnswer;
-  // eslint-disable-next-line consistent-return
   let round = 1;
   while (round <= 3) {
     const number = getNumber(100);

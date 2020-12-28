@@ -23,7 +23,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-cals": "bin/brain-cals.js"
+    "brain-cals": "bin/brain-calc.js"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.2.1",
