@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+/* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
 import getNumber from '../src/randomNumber.js';
 import getSolution from '../src/calcSolution.js';
@@ -11,10 +12,11 @@ const brainCalc = () => {
   const operators = ['+', '-', '*'];
   let correctAnswer;
   let round = 1;
+  let operator;
   while (round <= 3) {
     const firstNumber = getNumber(100);
     const secondNumber = getNumber(100);
-    const operator = operators[Math.floor(Math.random() * operators.length)];
+    operator = operators[Math.floor(Math.random() * operators.length)];
     console.log(`Question: ${firstNumber} ${operator} ${secondNumber}`);
     const answer = readlineSync.question('Your answer: ');
     correctAnswer = getSolution(firstNumber, secondNumber, operator);
