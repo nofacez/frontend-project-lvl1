@@ -21,7 +21,7 @@
   "homepage": "https://github.com/nofacez/frontend-project-lvl1#readme",
   "type": "module",
   "bin": {
-    "brain-games": "bin/brain-games.js",
+    "brain-games": "src/index.js",
     "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js"
   },
