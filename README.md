@@ -5,3 +5,4 @@
 ![Super-Linter](https://github.com/nofacez/frontend-project-lvl1/workflows/lint/badge.svg)
 [![asciicast Brain-even](https://asciinema.org/a/UiOAh9drcwVT2nurKDrRW26Ym.svg)](https://asciinema.org/a/UiOAh9drcwVT2nurKDrRW26Ym)
 [![asciicast Brain-calc](https://asciinema.org/a/ffRwhXfPWd2odWh2fQYtJ5lhu.svg)](https://asciinema.org/a/ffRwhXfPWd2odWh2fQYtJ5lhu)
+[![asciicast Brain-gcd](https://asciinema.org/a/5oDHii0Fm4YDASZNcKzya0Xwt.svg)](https://asciinema.org/a/5oDHii0Fm4YDASZNcKzya0Xwt)
