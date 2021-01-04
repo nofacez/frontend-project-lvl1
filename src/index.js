@@ -6,8 +6,9 @@ import readlineSync from 'readline-sync';
 import brainCalc from '../bin/brain-calc.js';
 import brainEven from '../bin/brain-even.js';
 import brainGcd from '../bin/brain-gcd.js';
+import brainProgression from '../bin/brain-progression.js';
 
-const gamesList = ['brain-even', 'brain-calc', 'brain-gcd'];
+const gamesList = ['brain-even', 'brain-calc', 'brain-gcd', 'brain-progression'];
 
 const startGame = () => {
   console.log('Welcome to the Brain Games!');
@@ -24,6 +25,9 @@ const startGame = () => {
       break;
     case ('brain-gcd'):
       brainGcd(name);
+      break;
+    case ('brain-progression'):
+      brainProgression(name);
       break;
     default:
       console.log("There is no such game! I'm sorry");
