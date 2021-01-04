@@ -33,4 +33,5 @@ const brainProgression = (name) => {
   console.log(`Congratulations, ${name}!`);
 };
 
+brainProgression();
 export default brainProgression;

@@ -25,4 +25,5 @@ const getGcd = (name) => {
   console.log(`Congratulations, ${name}!`);
 };
 
+getGcd();
 export default getGcd;
