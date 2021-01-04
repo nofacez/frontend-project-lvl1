@@ -3,9 +3,9 @@
 import readlineSync from 'readline-sync';
 import getNumber from '../src/randomNumber.js';
 
-const brainEven = (name) => {
+const brainEven = () => {
   console.log('Welcome to the Brain-even game!');
-  // const name = readlineSync.question('Do you mind giving me your name? ');
+  const name = readlineSync.question('Do you mind giving me your name? ');
   console.log(`Good day, ${name}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 

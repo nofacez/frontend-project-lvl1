@@ -4,9 +4,9 @@ import readlineSync from 'readline-sync';
 import getNumber from '../src/randomNumber.js';
 import getSolution from '../src/calcSolution.js';
 
-const brainCalc = (name) => {
+const brainCalc = () => {
   console.log('Welcome to the Calculator game!');
-  // const name = readlineSync.question('Do you mind giving me your name? ');
+  const name = readlineSync.question('Do you mind giving me your name? ');
   console.log(`Good day, ${name}!`);
   console.log('What is the result of the expression?');
   const operators = ['+', '-', '*'];

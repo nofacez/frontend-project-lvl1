@@ -2,8 +2,9 @@
 import readlineSync from 'readline-sync';
 import getNumber from '../src/randomNumber.js';
 
-const brainProgression = (name) => {
-  console.log(`Welcome to the Progression game, ${name}!`);
+const brainProgression = () => {
+  console.log('Welcome to the Progression game!');
+  const name = readlineSync.question('Do you mind giving me your name? ');
   console.log('What number is missing in the progression?');
   let correctAnswer;
   let round = 1;

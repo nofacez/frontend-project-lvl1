@@ -3,8 +3,9 @@ import readlineSync from 'readline-sync';
 import gcd from '../src/gcd.js';
 import getNumber from '../src/randomNumber.js';
 
-const getGcd = (name) => {
-  console.log(`Welcome to the Find-Greatest-Common-Divisor game, ${name}!`);
+const getGcd = () => {
+  console.log('Welcome to the Find-Greatest-Common-Divisor game!');
+  const name = readlineSync.question('Do you mind giving me your name? ');
   console.log('Find the greatest common divisor of given numbers.');
   let correctAnswer;
   let round = 1;
