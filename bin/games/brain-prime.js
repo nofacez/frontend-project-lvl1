@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import getNumber from '../src/randomNumber.js';
-import isPrime from '../src/isPirme.js';
+import getNumber from '../../src/randomNumber.js';
+import isPrime from '../../src/isPirme.js';
 
 const brainPrime = () => {
   console.log('Welcome to the brain-prime game!');

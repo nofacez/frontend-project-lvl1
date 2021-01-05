@@ -1,7 +1,7 @@
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import gcd from '../src/gcd.js';
-import getNumber from '../src/randomNumber.js';
+import gcd from '../../src/gcd.js';
+import getNumber from '../../src/randomNumber.js';
 
 const getGcd = () => {
   console.log('Welcome to the Find-Greatest-Common-Divisor game!');

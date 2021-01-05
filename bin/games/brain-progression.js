@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import getNumber from '../src/randomNumber.js';
+import getNumber from '../../src/randomNumber.js';
 
 const brainProgression = () => {
   console.log('Welcome to the Progression game!');

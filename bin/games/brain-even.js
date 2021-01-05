@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import getNumber from '../src/randomNumber.js';
+import getNumber from '../../src/randomNumber.js';
 
 const brainEven = () => {
   console.log('Welcome to the Brain-even game!');
-  const name = readlineSync.question('Do you mind giving me your name? ');
-  console.log(`Good day, ${name}!`);
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
   let correctAnswer;

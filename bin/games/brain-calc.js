@@ -1,13 +1,13 @@
 #!/usr/bin/env node
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
-import getNumber from '../src/randomNumber.js';
-import getSolution from '../src/calcSolution.js';
+import getNumber from '../../src/randomNumber.js';
+import getSolution from '../../src/calcSolution.js';
 
 const brainCalc = () => {
   console.log('Welcome to the Calculator game!');
-  const name = readlineSync.question('Do you mind giving me your name? ');
-  console.log(`Good day, ${name}!`);
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log('What is the result of the expression?');
   const operators = ['+', '-', '*'];
   let correctAnswer;
