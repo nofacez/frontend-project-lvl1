@@ -5,7 +5,8 @@ import isPrime from '../src/isPirme.js';
 
 const brainPrime = () => {
   console.log('Welcome to the brain-prime game!');
-  const name = readlineSync.question('Do you mind giving me your name? ');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if the number is prime, otherwise answer "no".');
 
   let correctAnswer;

@@ -5,6 +5,7 @@ import getNumber from '../src/randomNumber.js';
 const brainProgression = () => {
   console.log('Welcome to the Progression game!');
   const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}!`);
   console.log('What number is missing in the progression?');
   let correctAnswer;
   let round = 1;

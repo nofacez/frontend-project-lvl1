@@ -5,7 +5,8 @@ import getNumber from '../src/randomNumber.js';
 
 const getGcd = () => {
   console.log('Welcome to the Find-Greatest-Common-Divisor game!');
-  const name = readlineSync.question('Do you mind giving me your name? ');
+  const name = readlineSync.question('May I have your name? ');
+  console.log(`Hello, ${name}`);
   console.log('Find the greatest common divisor of given numbers.');
   let correctAnswer;
   let round = 1;
