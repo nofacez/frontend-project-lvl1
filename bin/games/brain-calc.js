@@ -5,7 +5,7 @@ import getNumber from '../../src/randomNumber.js';
 import getSolution from '../../src/calcSolution.js';
 
 const brainCalc = () => {
-  console.log('Welcome to the Calculator game!');
+  console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('What is the result of the expression?');

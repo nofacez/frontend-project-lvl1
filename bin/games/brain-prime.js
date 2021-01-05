@@ -1,10 +1,11 @@
+#!/usr/bin/env node
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
 import getNumber from '../../src/randomNumber.js';
 import isPrime from '../../src/isPirme.js';
 
 const brainPrime = () => {
-  console.log('Welcome to the brain-prime game!');
+  console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('Answer "yes" if the number is prime, otherwise answer "no".');

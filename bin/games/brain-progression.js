@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 /* eslint-disable import/extensions */
 import readlineSync from 'readline-sync';
 import getNumber from '../../src/randomNumber.js';
 
 const brainProgression = () => {
-  console.log('Welcome to the Progression game!');
+  console.log('Welcome to the Brain Games!');
   const name = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${name}!`);
   console.log('What number is missing in the progression?');
