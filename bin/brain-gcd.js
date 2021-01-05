@@ -9,7 +9,8 @@ const getGcd = () => {
   console.log('Find the greatest common divisor of given numbers.');
   let correctAnswer;
   let round = 1;
-  while (round <= 3) {
+  const maxRounds = 3;
+  while (round <= maxRounds) {
     const firstNumber = getNumber(100);
     const secondNumber = getNumber(100);
     console.log(`Question: ${firstNumber} ${secondNumber}`);

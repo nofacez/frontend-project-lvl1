@@ -11,7 +11,8 @@ const brainEven = () => {
 
   let correctAnswer;
   let round = 1;
-  while (round <= 3) {
+  const maxRounds = 3;
+  while (round <= maxRounds) {
     const number = getNumber(100);
     console.log(`Question: ${number}`);
     const answer = readlineSync.question('Your answer: ');

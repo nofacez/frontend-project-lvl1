@@ -13,7 +13,8 @@ const brainCalc = () => {
   let correctAnswer;
   let round = 1;
   let operator;
-  while (round <= 3) {
+  const maxRounds = 3;
+  while (round <= maxRounds) {
     const firstNumber = getNumber(100);
     const secondNumber = getNumber(100);
     operator = operators[Math.floor(Math.random() * operators.length)];
